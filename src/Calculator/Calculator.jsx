@@ -61,7 +61,11 @@ export default function Calculator() {
     }
     if (type === TYPE_BUTTONS[2]) {
       // Manejo de botón decimal
-      return (e) => {};
+      return (e) => {
+        if (!isNaN(display.at(-1)) && !display.includes('.')) {
+          setDisplay(display + e.target.value);
+        }
+      };
     }
     if (type === TYPE_BUTTONS[3]) {
       // Manejo de botón igual
