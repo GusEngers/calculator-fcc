@@ -1,3 +1,4 @@
+import Button from '../Button/Button';
 import { DATA_BUTTONS } from './data';
 
 export default function Calculator() {
@@ -6,9 +7,7 @@ export default function Calculator() {
       <div id='display'></div>
       <div>
         {DATA_BUTTONS.map((btn) => (
-          <button id={btn.name} key={btn.name}>
-            {btn.value}
-          </button>
+          <Button key={btn.name} id={btn.name} value={btn.value} />
         ))}
       </div>
     </>
