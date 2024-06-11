@@ -1,9 +1,11 @@
+import Calculator from './Calculator/Calculator';
+
 function App() {
   return (
     <>
-      <h1>Hola Mundo</h1>
+      <Calculator />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
