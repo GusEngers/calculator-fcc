@@ -1,0 +1,35 @@
+.buttons {
+  height: 50px;
+  border-style: solid;
+  border-width: 1px 2px 3px 3px;
+  border-radius: 5px;
+  font-size: 30px;
+  color: white;
+  user-select: none;
+}
+
+.buttons:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+}
+
+.number,
+.decimal {
+  background-color: #031558;
+  border-color: #000b34;
+}
+
+.clear {
+  background-color: #a00303;
+  border-color: #410000;
+}
+
+.equal {
+  background-color: #ffa600;
+  border-color: #603e00;
+}
+
+.operation {
+  background-color: #3ba710;
+  border-color: #133805;
+}
