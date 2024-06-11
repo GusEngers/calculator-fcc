@@ -5,7 +5,7 @@ export default function Button(props) {
   const classButtons = `buttons ${props.type}`;
 
   return (
-    <button id={props.id} type='button' className={classButtons} onClick={props.handleClick}>
+    <button id={props.id} type='button' className={classButtons} onClick={props.handleClick} value={props.value}>
       {value}
     </button>
   );

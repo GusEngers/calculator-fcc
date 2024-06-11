@@ -1,87 +1,89 @@
+export const TYPE_BUTTONS = ['number', 'operation', 'decimal', 'equal', 'clear'];
+
 export const DATA_BUTTONS = [
   {
     value: '7',
     name: 'seven',
-    type: 'number',
+    type: TYPE_BUTTONS[0],
   },
   {
     value: '8',
     name: 'eight',
-    type: 'number',
+    type: TYPE_BUTTONS[0],
   },
   {
     value: '9',
     name: 'nine',
-    type: 'number',
+    type: TYPE_BUTTONS[0],
   },
   {
     value: '*',
     name: 'multiply',
-    type: 'operation',
+    type: TYPE_BUTTONS[1],
   },
   {
     value: '4',
     name: 'four',
-    type: 'number',
+    type: TYPE_BUTTONS[0],
   },
   {
     value: '5',
     name: 'five',
-    type: 'number',
+    type: TYPE_BUTTONS[0],
   },
   {
     value: '6',
     name: 'six',
-    type: 'number',
+    type: TYPE_BUTTONS[0],
   },
   {
     value: '/',
     name: 'divide',
-    type: 'operation',
+    type: TYPE_BUTTONS[1],
   },
   {
     value: '1',
     name: 'one',
-    type: 'number',
+    type: TYPE_BUTTONS[0],
   },
   {
     value: '2',
     name: 'two',
-    type: 'number',
+    type: TYPE_BUTTONS[0],
   },
   {
     value: '3',
     name: 'three',
-    type: 'number',
+    type: TYPE_BUTTONS[0],
   },
   {
     value: '+',
     name: 'add',
-    type: 'operation',
+    type: TYPE_BUTTONS[1],
   },
   {
     value: '0',
     name: 'zero',
-    type: 'number',
+    type: TYPE_BUTTONS[0],
   },
   {
     value: '.',
     name: 'decimal',
-    type: 'decimal',
+    type: TYPE_BUTTONS[2],
   },
   {
     value: '=',
     name: 'equals',
-    type: 'equal',
+    type: TYPE_BUTTONS[3],
   },
   {
     value: '-',
     name: 'subtract',
-    type: 'operation',
+    type: TYPE_BUTTONS[1],
   },
   {
     value: 'AC',
     name: 'clear',
-    type: 'clear',
+    type: TYPE_BUTTONS[4],
   },
 ];
